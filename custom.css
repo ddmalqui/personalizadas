@@ -59,3 +59,99 @@
   mask-image: url("A52017.svg");
   mask
 }
+
+
+#ajuste1{
+width: 300px;
+object-fit: contain;
+background-color: red;
+object-position: bottom;
+height: 700px;
+}
+
+#ajuste2{
+width: 300px;
+background-color: red;
+object-position: bottom;
+height: 700px;
+}
+
+#ajuste3 {
+    width: 300px;
+    background-color: red;
+    object-fit: cover;
+    height: 700px;
+    overflow: hidden;
+    object-position: right;
+}
+
+#ajuste4 {
+    width: 300px;
+    background-color: red;
+    object-fit: cover;
+    height: 700px;
+    overflow: hidden;
+    object-position: left;
+}
+
+#ajuste5 {
+    width: 300px;
+    background-color: red;
+    object-fit: cover;
+    height: 700px;
+    overflow: hidden;
+    object-position: center;
+}
+
+#ajuste6 {
+    width: 700px;
+    background-color: red;
+    object-fit: cover;
+    height: 300px;
+    overflow: hidden;
+    object-position: center;
+    transform: rotate(90deg) translateY(-305px);
+    transform-origin: left top;
+    position: absolute;
+}
+
+#ajuste7 {
+    width: 700px;
+    object-fit: contain;
+    background-color: red;
+    object-position: bottom;
+    height: 300px;
+    transform: rotate(90deg) translateY(-300px);
+    transform-origin: left top;
+}
+
+#ajuste7 {
+    width: 700px;
+    object-fit: contain;
+    background-color: red;
+    object-position: bottom;
+    height: 300px;
+    transform: rotate(90deg) translateY(-300px);
+    transform-origin: left top;
+}
+#ajuste8 {
+    width: 700px;
+    object-fit: contain;
+    background-color: red;
+    object-position: right;
+    height: 300px;
+    transform: rotate(90deg) translateY(-605px) translateX(-330px);
+    transform-origin: left top;
+}
+#ajuste9 {
+    width: 700px;
+    object-fit: contain;
+    background-color: red;
+    object-position: left;
+    height: 300px;
+    transform: rotate(90deg) translateY(-910px) translateX(-660px);
+    transform-origin: left top;
+}
+
+
+
