@@ -57,23 +57,29 @@
   background-image: url("http://fakeimg.pl/300x700/");
   -webkit-mask-image: url("A52017.svg");
   mask-image: url("A52017.svg");
-  mask
 }
 
-
 #ajuste1{
-width: 300px;
-object-fit: contain;
-background-color: red;
-object-position: bottom;
-height: 700px;
+    width: 300px;
+    object-fit: contain;
+    background-color: red;
+    object-position: bottom;
+    height: 700px;
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
 }
 
 #ajuste2{
-width: 300px;
-background-color: red;
-object-position: bottom;
-height: 700px;
+    width: 300px;
+    background-color: red;
+    object-position: bottom;
+    height: 700px;
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
 }
 
 #ajuste3 {
@@ -83,6 +89,10 @@ height: 700px;
     height: 700px;
     overflow: hidden;
     object-position: right;
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
 }
 
 #ajuste4 {
@@ -92,6 +102,10 @@ height: 700px;
     height: 700px;
     overflow: hidden;
     object-position: left;
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
 }
 
 #ajuste5 {
@@ -101,9 +115,17 @@ height: 700px;
     height: 700px;
     overflow: hidden;
     object-position: center;
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
 }
 
 #ajuste6 {
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
     width: 700px;
     background-color: red;
     object-fit: cover;
@@ -113,6 +135,7 @@ height: 700px;
     transform: rotate(90deg) translateY(-305px);
     transform-origin: left top;
     position: absolute;
+
 }
 
 #ajuste7 {
