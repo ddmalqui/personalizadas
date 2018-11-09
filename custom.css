@@ -121,11 +121,18 @@
     mask-position: bottom;
 }
 
-#ajuste6 {
+#content-mask6{
+    mask-image: url("A52017.svg");
     -webkit-mask-image: url("A52017.svg");
     mask-image: url("A52017.svg");
     mask-repeat: no-repeat;
     mask-position: bottom;
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+    mask-repeat: no-repeat;
+}
+#ajuste6 {
     width: 700px;
     background-color: red;
     object-fit: cover;
@@ -135,9 +142,18 @@
     transform: rotate(90deg) translateY(-305px);
     transform-origin: left top;
     position: absolute;
-
 }
-
+#content-mask7{
+    mask-image: url("A52017.svg");
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+    mask-repeat: no-repeat;
+}
 #ajuste7 {
     width: 700px;
     object-fit: contain;
@@ -148,22 +164,25 @@
     transform-origin: left top;
 }
 
-#ajuste7 {
-    width: 700px;
-    object-fit: contain;
-    background-color: red;
-    object-position: bottom;
-    height: 300px;
-    transform: rotate(90deg) translateY(-300px);
-    transform-origin: left top;
+#content-mask8{
+    mask-image: url("A52017.svg");
+    -webkit-mask-image: url("A52017.svg");
+    mask-image: url("A52017.svg");
+    mask-repeat: no-repeat;
+    mask-position: bottom;
+    width: 300px;
+    height: 700px;
+    overflow: hidden;
+    mask-repeat: no-repeat;
 }
+
 #ajuste8 {
     width: 700px;
     object-fit: contain;
     background-color: red;
     object-position: right;
     height: 300px;
-    transform: rotate(90deg) translateY(-605px) translateX(-330px);
+    transform: rotate(90deg) translateY(-605px) translateX(-695px);
     transform-origin: left top;
 }
 #ajuste9 {
