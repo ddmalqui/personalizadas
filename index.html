@@ -27,31 +27,19 @@
         <br/>
 
 
+        <div class="content-ajuste1">
         <img src="http://fakeimg.pl/500x500/" id='ajuste1' class="gallery_product">
+        </div>
+        <button id='object_position_up' type="button" class="btn btn-primary">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </button>
+        <button id='object_position_downn' type="button" class="btn btn-primary">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
 
         <img src="http://fakeimg.pl/500x500/" id='ajuste2' class="gallery_product">
 
-        <img src="http://fakeimg.pl/500x500/" id='ajuste3' class="gallery_product">
-
-        <img src="http://fakeimg.pl/500x500/" id='ajuste4' class="gallery_product">
-        
-        <img src="http://fakeimg.pl/500x500/" id='ajuste5' class="gallery_product">
-
-        <div id='content-mask6'>
-        <img src="http://fakeimg.pl/500x500/" id='ajuste6' class="gallery_product">
-        </div>
-
-        <div id='content-mask7'>
-        <img src="http://fakeimg.pl/500x500/" id='ajuste7' class="gallery_product">
-        </div>
-
-        <div id='content-mask8'>
-        <img src="http://fakeimg.pl/500x500/" id='ajuste8' class="gallery_product">
-        </div>
-        
-        <img src="http://fakeimg.pl/500x500/" id='ajuste9' class="gallery_product">
-
-
+        <img src="http://fakeimg.pl/500x500/" id='ajuste3' class="gallery_product"> 
 
         </div>
     </div>
@@ -77,6 +65,17 @@ $(document).ready(function(){
             
         }
     });
+
+    $("#object_position_up").click(function(){
+        nuevovalor = parseInt($("#ajuste1").css("object-position").substring(4, 6)) - 3;
+        $("#ajuste1").css("object-position",'50% ' +nuevovalor+'%');
+    });
+
+    $("#object_position_downn").click(function(){
+        nuevovalor = parseInt($("#ajuste1").css("object-position").substring(4, 6)) + 3;
+        $("#ajuste1").css("object-position",'50% ' +nuevovalor+'%');
+    });
+
     
     if ($(".filter-button").removeClass("active")) {
 $(this).removeClass("active");
